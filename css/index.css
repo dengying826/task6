@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 62.5%;
+
+}
+body{
+    float: left;
+}
+button{
+    border: 0;
+    outline: none;
+    background: none;
+}
+
+.top {
+    width: 100vw;
+    height: 4rem;
+    background-color: rgb(115, 190, 204);
+}
+
+
+.btn-group {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1vh;
+    background-color: rgb(102, 166, 178);
+}
+
+.btn1 {
+    background-color: rgb(102, 166, 178);
+    color: #ffffff;
+}
+
+.btn2 {
+    background-color: #ffffff;
+    color: rgb(102, 166, 178);
+}
+
+.loc_1 {
+    float: right;
+    height: 40%;
+    transform: translate(-100%, 60%);
+}
+
+.drop {
+    width: 100vw;
+    height: 2rem;
+    float: left;
+    top: 4rem;
+}
+
+.down {
+    float: left;
+    height: 2rem;
+    color: rgb(191, 191, 191);
+    width: 33.3vw;
+    text-align: center;
+    border-bottom: 1px solid rgb(241, 242, 243);
+
+}
+
+.dropdown-toggle {
+    margin-bottom: 1rem;
+    border-left: 1px solid rgb(241, 242, 243);
+    border-rignt: 1px solid rgb(241, 242, 243);
+}
+
+.menu {
+    text-align: center;
+}
+
+.bottom {
+    height: 5rem;
+    width: 100vw;
+    background-color: rgb(248, 250, 251);
+    position: fixed;
+    bottom: 0;
+    border: 1px solid rgb(238, 242, 244);
+    text-align: center;
+    overflow: hidden;
+    padding: 0.5rem;
+}
+
+.shouye, .write, .wode {
+    display: inline-block;
+    height: 100%;
+    width: 4rem;
+    margin-top: 0.5rem;
+}
+
+.shouye {
+    float: left;
+    color: rgb(115, 190, 204);
+    margin-left: 15vw;
+}
+
+.wode {
+    float: right;
+    color: rgb(156, 156, 156);
+    margin-right: 15vw;
+}
+
+.write {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(115, 190, 204);
+    border-radius: 2rem;
+    line-height: 4rem;
+    position: relative;
+}
+
+.icon_write {
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+
+}
+
+.icon {
+    height: 1.75rem;
+    width: 2rem;
+}
+
+.word {
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+.content {
+    height: 75vh;
+    width: 100vw;
+    overflow: scroll;
+}
+
+.item {
+    width: 100vw;
+    height: 7rem;
+    border-bottom: 1px solid rgb(243, 244, 245);
+    font-size: 1.6rem;
+    color: rgb(176, 176, 176);
+    padding-left: 1rem;
+}
+
+.des {
+    display: inline-block;
+    float: left;
+    margin-left: 5px;
+}
+
+.data, .loc_2 {
+    width: 1.25rem;
+    height: 1.25rem;
+    line-height: 2rem;
+    margin-right: 0.5rem;
+}
+
+.loc_2 {
+    width: 1rem;
+    height: 1.25rem;
+    line-height: 2rem;
+}
+
+.line1 {
+    height: 2rem;
+    line-height: 2rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.line2 {
+    height: 2rem;
+    line-height: 2rem;
+    color: black;
+}
+
+.money {
+    display: inline-block;
+    line-height: 7rem;
+    float: right;
+    margin-right: 1.5rem;
+}
+
+.salary {
+    color: red;
+}
+
+.next {
+    color: rgb(115, 190, 204);
+}
