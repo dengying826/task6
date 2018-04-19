@@ -1,242 +1,590 @@
-<!doctype html>
-<html lang="ch">
-<head>
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--<script src="http://how2j.cn/study/js/jquery/2.0.0/jquery.min.js"></script>-->
-    <script src="js/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!--<script src="http://how2j.cn/study/js/bootstrap/3.3.6/bootstrap.min.js"></script>-->
-    <script src="js/bootstrap.min.js"></script>
-    <!--<link href="http://how2j.cn/study/css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">-->
-    <!--<link rel="stylesheet" href="css/b">-->
-    <link rel="stylesheet" href="css/index.css">
     <title>任务六</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/style.css"/>
 </head>
+
 <body>
+<div class="wrap flex flex-v">
+    <!--导航栏-->
+    <div class="header">
+        <div class="navbar  navbar-default">
+            <div style="width:20px;float: left;height: 20px;margin-top: 12px;margin-left: 20px"></div>
+            <div class="buttons">
+                <button class="btn1">找雇主</button>
+                <button class="btn2">请护工</button>
+            </div>
+            <img src="lib/image/loc_1.png" class="loc_1">
 
+        </div>
+        <!--下拉菜单-->
+        <div class="container">
+            <div class="row">
 
-<div class="navbar top" style="margin-bottom: 10px">
-
-    <div class="btn-group">
-        <button class="btn btn1" style="outline: none;">找雇主</button>
-        <button class="btn btn2" style="outline: none;">找护工</button>
+                <div class="col-xs-4 down">
+                    <li class="dropdown">
+                        <span class="dropdown-toggle" data-toggle="dropdown">
+                            <span>所在地&emsp;&emsp;</span>
+                            <span class="caret"></span>
+                        </span>
+                        <ul class="dropdown-menu">
+                            <li>北京</li>
+                            <li class="divider"></li>
+                            <li>上海</li>
+                            <li class="divider"></li>
+                            <li>武汉</li>
+                        </ul>
+                    </li>
+                </div>
+                <div class="col-xs-4 down">
+                    <li class="dropdown">
+                        <span class="dropdown-toggle" data-toggle="dropdown">
+                           <span>食宿&emsp;&emsp;</span>
+                            <span class="caret"></span>
+                        </span>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">包食宿</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">不包食宿</a></li>
+                        </ul>
+                    </li>
+                </div>
+                <div class="col-xs-4 down">
+                    <li class="dropdown">
+                        <span class="dropdown-toggle" data-toggle="dropdown">
+                            <span>病人情况&emsp;&emsp;</span>
+                            <span class="caret"></span>
+                        </span>
+                        <ul class="dropdown-menu">
+                            <li>能自理</li>
+                            <li class="divider"></li>
+                            <li>不能自理</li>
+                            <li class="divider"></li>
+                            <li>手术后</li>
+                            <li class="divider"></li>
+                            <li>半失能</li>
+                        </ul>
+                    </li>
+                </div>
+            </div>
+        </div>
     </div>
-    <img src="image/loc_1.png" class="loc_1">
 
+    <!--主体部分-->
+    <div class="main flex-1">
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>25元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>35元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>45元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>55元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>25元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>25元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>25元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>25元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>35元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>45元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>55元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>25元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>25元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>25元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>25元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>35元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>45元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>55元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>25元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>25元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="list-group-item">
+            <div class="container">
+                <div class="row items">
+                    <!--左边-->
+                    <div class="col-xs-8 left_part">
+                        <div class="line1">
+                            <img src="lib/image/data.png" class="img"> &ensp;服务日期
+                        </div>
+                        <div class="line2">
+                            &emsp;&emsp;2015-7-5 至 2017-7-12
+                        </div>
+                        <div class="line1">
+                            <img src="lib/image/loc_2.png" class="img"> &ensp;北京·通州·果园
+                        </div>
+                    </div>
+                    <!--右边-->
+                    <div class="col-xs-4 right_part">
+                        <span>25元/小时 </span><span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <!--底部-->
+    <div class="footer">
+        <div class="footer_ navbar-fixed-bottom">
+            <div class="icon1" >
+                <img src="lib/image/shouye.png" class="icon1_img">
+                <div class="shouye">首页</div>
+            </div>
+            <div class="icon2">
+                <img src="lib/image/write.png" class="icon2_img">
+            </div>
+            <div class="icon3">
+                <img src="lib/image/wode.png" class="icon3_img"><br>
+                <span class="wode">我的</span>
+            </div>
+
+        </div>
+    </div>
 </div>
-<!--下拉菜单-->
-<div class="drop">
-    <!--所在地-->
-    <div class="down dropdown">
+<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
 
-        <div class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
-            所在地&emsp;
-            <span class="caret"></span>
-        </div>
-
-        <ul class="dropdown-menu menu" role="menu" aria-labelledby="dropdownMenu1">
-            <li>
-                <a href="#">北京</a>
-            </li>
-            <li role="presentation">
-                <a href="#">上海</a>
-            </li>
-
-            <li role="presentation">
-                <a href="#">广州</a>
-            </li>
-            <li role="presentation">
-                <a href="#">深圳</a>
-            </li>
-        </ul>
-    </div>
-
-    <!--食宿-->
-    <div class="down dropdown">
-
-        <div class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown">
-            食宿&emsp;
-            <span class="caret"></span>
-        </div>
-
-        <ul class="dropdown-menu menu" role="menu" aria-labelledby="dropdownMenu2">
-            <li>
-                <a href="#">包食宿</a>
-            </li>
-            <li role="presentation">
-                <a href="#">不包食宿</a>
-            </li>
-        </ul>
-    </div>
-
-    <!--病人情况-->
-    <div class="down dropdown">
-        <div class="dropdown-toggle" id="dropdownMenu3" data-toggle="dropdown">
-            病人情况&emsp;
-            <span class="caret"></span>
-        </div>
-        <ul class="dropdown-menu menu" role="menu" aria-labelledby="dropdownMenu3">
-            <li>
-                <a href="#">能自理</a>
-            </li>
-            <li role="presentation">
-                <a href="#">不能自理</a>
-            </li>
-        </ul>
-    </div>
-
-
-</div>
-
-
-<!--</div>-->
-<div class="content">
-
-
-    <div class="item">
-        <div class="des">
-            <div class="line1"><img src="image/data.png" class="data">服务日期</div>
-            <div class="line2">&emsp;&emsp;2015-7-5 至 2015-7-12</div>
-            <div class="line1"><img src="image/loc_2.png" class="loc_2">北京·通州·果园</div>
-        </div>
-        <div class="money">
-            <span class="salary">25元／时</span>
-            <span class="glyphicon glyphicon-menu-right next"></span>
-        </div>
-    </div>
-    <div class="item">
-        <div class="des">
-            <div class="line1"><img src="image/data.png" class="data">服务日期</div>
-            <div class="line2">&emsp;&emsp;2015-7-5 至 2015-7-12</div>
-            <div class="line1"><img src="image/loc_2.png" class="loc_2">北京·通州·果园</div>
-        </div>
-        <div class="money">
-            <span class="salary">25元／时</span>
-            <span class="glyphicon glyphicon-menu-right next"></span>
-        </div>
-    </div>
-    <div class="item">
-        <div class="des">
-            <div class="line1"><img src="image/data.png" class="data">服务日期</div>
-            <div class="line2">&emsp;&emsp;2015-7-5 至 2015-7-12</div>
-            <div class="line1"><img src="image/loc_2.png" class="loc_2">北京·通州·果园</div>
-        </div>
-        <div class="money">
-            <span class="salary">25元／时</span>
-            <span class="glyphicon glyphicon-menu-right next"></span>
-        </div>
-    </div>
-    <div class="item">
-        <div class="des">
-            <div class="line1"><img src="image/data.png" class="data">服务日期</div>
-            <div class="line2">&emsp;&emsp;2015-7-5 至 2015-7-12</div>
-            <div class="line1"><img src="image/loc_2.png" class="loc_2">北京·通州·果园</div>
-        </div>
-        <div class="money">
-            <span class="salary">25元／时</span>
-            <span class="glyphicon glyphicon-menu-right next"></span>
-        </div>
-    </div>
-    <div class="item">
-        <div class="des">
-            <div class="line1"><img src="image/data.png" class="data">服务日期</div>
-            <div class="line2">&emsp;&emsp;2015-7-5 至 2015-7-12</div>
-            <div class="line1"><img src="image/loc_2.png" class="loc_2">北京·通州·果园</div>
-        </div>
-        <div class="money">
-            <span class="salary">25元／时</span>
-            <span class="glyphicon glyphicon-menu-right next"></span>
-        </div>
-    </div>
-    <div class="item">
-        <div class="des">
-            <div class="line1"><img src="image/data.png" class="data">服务日期</div>
-            <div class="line2">&emsp;&emsp;2015-7-5 至 2015-7-12</div>
-            <div class="line1"><img src="image/loc_2.png" class="loc_2">北京·通州·果园</div>
-        </div>
-        <div class="money">
-            <span class="salary">25元／时</span>
-            <span class="glyphicon glyphicon-menu-right next"></span>
-        </div>
-    </div>
-    <div class="item">
-        <div class="des">
-            <div class="line1"><img src="image/data.png" class="data">服务日期</div>
-            <div class="line2">&emsp;&emsp;2015-7-5 至 2015-7-12</div>
-            <div class="line1"><img src="image/loc_2.png" class="loc_2">北京·通州·果园</div>
-        </div>
-        <div class="money">
-            <span class="salary">25元／时</span>
-            <span class="glyphicon glyphicon-menu-right next"></span>
-        </div>
-    </div>
-    <div class="item">
-        <div class="des">
-            <div class="line1"><img src="image/data.png" class="data">服务日期</div>
-            <div class="line2">&emsp;&emsp;2015-7-5 至 2015-7-12</div>
-            <div class="line1"><img src="image/loc_2.png" class="loc_2">北京·通州·果园</div>
-        </div>
-        <div class="money">
-            <span class="salary">25元／时</span>
-            <span class="glyphicon glyphicon-menu-right next"></span>
-        </div>
-    </div>
-    <div class="item">
-        <div class="des">
-            <div class="line1"><img src="image/data.png" class="data">服务日期</div>
-            <div class="line2">&emsp;&emsp;2015-7-5 至 2015-7-12</div>
-            <div class="line1"><img src="image/loc_2.png" class="loc_2">北京·通州·果园</div>
-        </div>
-        <div class="money">
-            <span class="salary">25元／时</span>
-            <span class="glyphicon glyphicon-menu-right next"></span>
-        </div>
-    </div>
-    <div class="item">
-        <div class="des">
-            <div class="line1"><img src="image/data.png" class="data">服务日期</div>
-            <div class="line2">&emsp;&emsp;2015-7-5 至 2015-7-12</div>
-            <div class="line1"><img src="image/loc_2.png" class="loc_2">北京·通州·果园</div>
-        </div>
-        <div class="money">
-            <span class="salary">25元／时</span>
-            <span class="glyphicon glyphicon-menu-right next"></span>
-        </div>
-    </div>
-    <div class="item">
-        <div class="des">
-            <div class="line1"><img src="image/data.png" class="data">服务日期</div>
-            <div class="line2">&emsp;&emsp;2015-7-5 至 2015-7-12</div>
-            <div class="line1"><img src="image/loc_2.png" class="loc_2">北京·通州·果园</div>
-        </div>
-        <div class="money">
-            <span class="salary">25元／时</span>
-            <span class="glyphicon glyphicon-menu-right next"></span>
-        </div>
-    </div>
-    <br>
-</div>
-
-<!--底部-->
-<div class="bottom">
-    <div class="shouye">
-        <img src="image/shouye.png" class="icon">
-        <br>
-        <span class="word">首页</span>
-    </div>
-    <div class="write">
-        <img src="image/write.png" class="icon_write">
-    </div>
-    <div class="wode">
-        <img src="image/wode.png" class="icon">
-        <br>
-        <span class="word">我的</span>
-    </div>
-</div>
-
-
+<script src="lib/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>

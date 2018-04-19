@@ -1,0 +1,314 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 62.5%;
+    outline: none;
+    font-size: 1.2rem;
+
+}
+
+html, body {
+    height: 100%
+}
+button {
+    outline: none;
+    background: none;
+    border: 0;
+}
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    height: 4rem;
+}
+
+.header {
+    height: 6.5rem;
+    border-bottom: 1px solid rgb(240, 242, 243);
+    /*margin-bottom: 0.5rem;*/
+}
+
+.main {
+    overflow: auto;
+}
+
+/* ============================================================
+   flex：定义布局为盒模型
+   flex-v：盒模型垂直布局
+   flex-1：子元素占据剩余的空间
+   flex-align-center：子元素垂直居中
+   flex-pack-center：子元素水平居中
+   flex-pack-justify：子元素两端对齐
+   兼容性：ios 4+、android 2.3+、winphone8+
+   ============================================================ */
+
+.flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flex-v {
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.flex-1 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.flex-align-center {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.flex-pack-center {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.flex-pack-justify {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+/*============================================================ */
+
+.navbar {
+    border-radius: 0;
+    border: none;
+    min-height: 44px;
+}
+
+.buttons {
+    background-color: rgb(102, 166, 178);
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.navbar-default {
+    background-color: rgb(115, 190, 204);
+    text-align: center;
+    height: 2.5rem;
+    width: 100%;
+    margin: 0;
+}
+
+
+.btn1, .btn2 {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 1.4rem;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn1 {
+    background-color: #55a8b3;
+    color: #ffffff;
+}
+
+.btn2 {
+    background-color: #ffffff;
+    color: #5fc0cd;
+}
+
+.loc_1 {
+    float: right;
+    width: 20px;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+/*下拉框，重写*/
+.down {
+    margin-top: 0.5rem;
+    padding-right: 0;
+    height: 2rem;
+    border-right: 1px solid rgb(240, 242, 243);
+    text-align: center;
+}
+
+.down:last-child {
+    border-right: 0;
+}
+
+.dropdown-toggle {
+    text-align: center;
+    font-size: 1.4rem;
+    height: 2rem;
+    line-height: 2rem;
+    color: rgb(166, 166, 166);
+}
+
+.dropdown-menu {
+    min-width: 0;
+    width: 80%;
+    text-align: center;
+    border-radius: 0;
+    left: 10%;
+    border: 0;
+    background: rgb(248, 248, 248);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.dropdown-menu li {
+    cursor: pointer;
+    color: #444444;
+}
+
+/*内容框*/
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line1, .line2 {
+    font-size: 1.3rem;
+    height: 1.3rem;
+    line-height: 1.3rem;
+}
+
+.line1 {
+    color: #999;
+}
+
+.line2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.img {
+    display: inline-block;
+    line-height: 1.3rem;
+    height: 1rem;
+    vertical-align: top;
+}
+
+.right_part {
+    text-align: right;
+    color: red;
+    font-size: 1.3rem;
+}
+
+.glyphicon-menu-right {
+    color: rgb(115, 190, 204);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+div[class^="col-xs-"] {
+    padding-left: 0;
+!important;
+}
+
+.list-group-item {
+    border: none;
+    border-bottom: 2px solid rgb(240, 242, 243);
+}
+
+.list-group-item:last-child {
+    border: none;
+}
+
+/*底部*/
+.footer_ {
+    width: 100vw;
+    height: 4rem;
+    background-color: #f8fafb;
+    border-top: 1px solid rgb(237, 241, 243);
+    text-align: center;
+
+}
+
+/*首页*/
+.icon1 {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    height: 4rem;
+    margin-left: 20%;
+}
+
+.icon1_img {
+    display: block;
+    width: 1.8rem;
+    margin-left: 0.1rem;
+    float: left;
+    position: relative;
+    top: 10%;
+}
+
+.shouye {
+    color: rgb(115, 190, 204);
+    position: relative;
+    bottom: -20%;
+    font-weight: lighter;
+}
+
+/*write*/
+.icon2 {
+    display: inline-block;
+    height: 3.4rem;
+    width: 3.4rem;
+    margin: 0.3rem;
+    border-radius: 2rem;
+    background-color: rgb(115, 190, 204);
+}
+
+.icon2_img {
+    display: inline-block;
+    height: 1.7rem;
+    position: relative;
+    top: 20%;
+    left: 3%;
+}
+
+/*我的*/
+.icon3 {
+    display: inline-block;
+    float: right;
+    text-align: center;
+    height: 4rem;
+    margin-right: 20%;
+
+}
+
+.icon3_img {
+    width: 1.8rem;
+    float: right;
+    position: relative;
+    margin-right: 0.1rem;
+    top: 10%;
+}
+
+.wode {
+    color: #999;
+    position: relative;
+    bottom: -20%;
+    font-weight: lighter;
+}
