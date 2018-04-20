@@ -26,7 +26,7 @@ button {
 }
 
 .header {
-    height: 6.5rem;
+    height: 7.5rem;
     border-bottom: 1px solid rgb(240, 242, 243);
     /*margin-bottom: 0.5rem;*/
 }
@@ -244,30 +244,27 @@ div[class^="col-xs-"] {
     text-align: center;
 
 }
+.icon1{
+    height: 1.8rem;
+    margin: 0.5rem 0 0.3rem 0;
+}
+.left{
+    float: left;
+    margin-left: 25%;
+}
+
+.right{
+    float: right;
+    margin-right: 25%;
+}
+
+
 
 /*首页*/
-.icon1 {
-    display: inline-block;
-    float: left;
-    text-align: center;
-    height: 4rem;
-    margin-left: 20%;
-}
-
-.icon1_img {
-    display: block;
-    width: 1.8rem;
-    margin-left: 0.1rem;
-    float: left;
-    position: relative;
-    top: 10%;
-}
-
 .shouye {
     color: rgb(115, 190, 204);
-    position: relative;
-    bottom: -20%;
     font-weight: lighter;
+    font-size: 1rem;
 }
 
 /*write*/
@@ -279,36 +276,17 @@ div[class^="col-xs-"] {
     border-radius: 2rem;
     background-color: rgb(115, 190, 204);
 }
-
-.icon2_img {
-    display: inline-block;
-    height: 1.7rem;
-    position: relative;
-    top: 20%;
-    left: 3%;
+.icon2_img{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-top: 0.8rem;
+    margin-left: 0.1rem;
 }
 
 /*我的*/
-.icon3 {
-    display: inline-block;
-    float: right;
-    text-align: center;
-    height: 4rem;
-    margin-right: 20%;
-
-}
-
-.icon3_img {
-    width: 1.8rem;
-    float: right;
-    position: relative;
-    margin-right: 0.1rem;
-    top: 10%;
-}
 
 .wode {
-    color: #999;
-    position: relative;
-    bottom: -20%;
+    color: #777;
     font-weight: lighter;
+    font-size: 1rem;
 }
